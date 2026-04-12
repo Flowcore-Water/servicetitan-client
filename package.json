@@ -1,0 +1,35 @@
+{
+  "name": "@flowcore-water/servicetitan-client",
+  "version": "1.0.0",
+  "description": "Shared TypeScript client for the ServiceTitan API — OAuth, retry, pagination",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "typescript": "^5.9.0",
+    "vitest": "^3.2.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flowcore-Water/servicetitan-client.git"
+  },
+  "license": "UNLICENSED"
+}
