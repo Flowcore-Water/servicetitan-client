@@ -1,2 +1,2 @@
-export { ServiceTitanClient, ServiceTitanError } from "./client.js";
-export type { ServiceTitanClientConfig, PageResult } from "./client.js";
+export { ServiceTitanClient, ServiceTitanError } from "./client";
+export type { ServiceTitanClientConfig, PageResult } from "./client";
