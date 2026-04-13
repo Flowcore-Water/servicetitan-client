@@ -8,4 +8,5 @@ This is the shared ServiceTitan API client used by fleet-api, wellscope-api, req
 - Requires Node 18+ for AbortSignal.timeout
 - {tenantId} in paths is auto-resolved from config
 - Token cache is in-memory, not shared across processes
-- Consumer repos install via `github:Flowcore-Water/servicetitan-client`
+- Published to GitHub npm registry as `@flowcore-water/servicetitan-client`
+- Consumer repos should install via the registry, not git clone
