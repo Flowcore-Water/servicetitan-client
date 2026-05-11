@@ -1,6 +1,6 @@
 {
   "name": "@flowcore-water/servicetitan-client",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Shared TypeScript client for the ServiceTitan API — OAuth, retry, pagination",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
