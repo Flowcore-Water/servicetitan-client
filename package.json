@@ -31,5 +31,8 @@
     "type": "git",
     "url": "git+https://github.com/Flowcore-Water/servicetitan-client.git"
   },
+  "engines": {
+    "node": "22.23.4"
+  },
   "license": "UNLICENSED"
 }
